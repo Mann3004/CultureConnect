@@ -10,12 +10,10 @@ body {
     font-size: 1.2rem;
     text-align: justify;
     background-color: bisque;
-    <!--
     background-image: url('/body.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    -->
 }
 
 .block-1 {
