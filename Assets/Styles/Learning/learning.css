@@ -91,7 +91,6 @@ nav ul li a {
 }
 
 .hero {
-    background-color: #f0f0f0;
     padding: 100px 0;
     text-align: center;
 }
@@ -102,8 +101,15 @@ nav ul li a {
 }
 
 .hero p {
-    font-size: 18px;
+    font-size: 20px;
     margin-bottom: 40px;
+    color: black;
+}
+
+.intro {
+    text-align: justify;
+    margin-left: 60px;
+    margin-right: 60px;
 }
 
 .button-grid {
@@ -134,5 +140,4 @@ footer {
     color: #fff;
     padding: 20px;
     text-align: center;
-    position: bottom;
 }

@@ -9,9 +9,6 @@ body {
     background-size: cover;
 }
 
-.block-1 {
-    border-radius: 10px;
-}
 
 header {
     background-color: #ffa500;
@@ -62,4 +59,15 @@ nav ul li a {
     text-decoration: none;
     color: #333;
     font-weight: bold;
+}
+
+.header-top {
+    text-align: right;
+}
+
+.header-buttons a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    margin-left: 10px;
 }
