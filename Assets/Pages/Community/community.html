@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cultural Quiz and Community</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../Styles/Community/community.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="../../../index.html"><img src="../../Images/CC logo icon.ico" alt="Project Logo"></a>
+        </div>
+        <div class="nav">
+            <nav>
+                <ul>
+                    <li id="learning"><a href="../../Pages/Learning/learning.html">Learning</a></li>
+                    <li id="quizzes"><a href="../../Pages/Quiz/quiz.html">Quizzes</a></li>
+                    <li id="community"><a href="../../Pages/Community/community.html">Community</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="header-top">
+            <div class="header-buttons">
+                <a href="../Login/login.html">Login/Sign up</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="community-container" id="community">
+        <section id="community-section">
+            <h2>Community Thoughts</h2>
+            <div class="input-group">
+                <textarea id="thought-input" class="thought-input" placeholder="Share your thoughts..." cols="60"></textarea>
+
+                <button id="post-btn" class="btn">Post</button>
+            </div>
+            <div id="thoughts-container"></div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 CultureConnect</p>
+    </footer>
+
+    <script src="../../Scripts/Community/community.js"></script>
+</body>
+</html>
