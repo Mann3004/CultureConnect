@@ -16,6 +16,49 @@ body {
     background-size: cover;
 }
 
+.intro {
+    background-image: url('https://gupshups.org/wp-content/uploads/2020/09/essay-on-india.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+    text-align: center;
+}
+
+.intro-content {
+    max-width: 600px;
+}
+
+.intro h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.intro p {
+    font-size: 1.2em;
+    margin-bottom: 35px;
+}
+
+.intro img {
+    max-width: 90%;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+main {
+    padding: 50px;
+    text-align: center;
+}
+
+p {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
 .block-1 {
     border-radius: 10px;
 }
@@ -129,4 +172,36 @@ footer {
     color: #fff;
     padding: 20px;
     text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 35px;
+}
+
+footer nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+footer nav ul li {
+    margin-right: 20px;
+}
+
+footer nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.footer-info p {
+    margin: 5px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 150px;
 }

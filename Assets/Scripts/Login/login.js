@@ -10,7 +10,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
 
     if (email === hardcodedEmail && password === hardcodedPassword) {
         // Redirect to the home page upon successful login
-        window.location.href = 'index.html';
+        window.location.href = '../../../index.html';
     } else {
         alert('Invalid email or password.');
     }
