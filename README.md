@@ -9,7 +9,6 @@
 - 🧠 **Quiz Section:** Engaging quizzes to test and build cultural knowledge.
 - 📝 **Community Section:** Allows users to submit their own cultural experiences and articles.
 - 👥 **User Profiles:** Optional login/registration for personalization.
-- 📊 **Analytics Ready:** Tracks user interaction, preferences, and content engagement.
 
 ## 🎯 Objectives
 
@@ -21,8 +20,6 @@
 ## 🧰 Tech Stack
 
 - **Frontend:** HTML, CSS, JavaScript
-- **Backend:** (planned) Python/Node.js/PHP (extendable)
-- **Database:** MySQL / MongoDB (suggested for dynamic features)
 - **Version Control:** Git
 
 ## 🚀 How to Run
@@ -32,4 +29,4 @@
 3. Navigate between sections from the homepage.
 
 ```bash
-git clone https://github.com/yourusername/CultureConnect.git
+git clone https://github.com/Mann3004/CultureConnect.git
